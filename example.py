@@ -1,12 +1,12 @@
 from hop_transfer import HopTransfer
 
 if __name__ == "__main__":
-    RPC_URL = ""
+    rpc_url = ""
     sender_priv_base58_str = ""
     receiver_pubkey_str = ""
     sol_amount = 0.10
 
-    hop_transfer = HopTransfer(RPC_URL, sender_priv_base58_str, receiver_pubkey_str)
+    hop_transfer = HopTransfer(rpc_url, sender_priv_base58_str, receiver_pubkey_str)
 
     try:
         results = hop_transfer.execute(sol_amount)
