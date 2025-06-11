@@ -16,4 +16,4 @@ if __name__ == "__main__":
             print("Hop transfer failed.")
         
     except Exception as e:
-        print("❌ Error during hoped transfer:", e)
+        print("Error during hop transfer:", e)
